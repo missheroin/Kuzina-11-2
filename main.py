@@ -3,7 +3,7 @@ from flask import url_for, request, render_template, redirect
 from flask import make_response, session, abort, jsonify
 
 import json
-`
+
 from data import db_session, news_api
 from data.users import User
 from data.news import News
